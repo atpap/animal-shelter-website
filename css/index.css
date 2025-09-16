@@ -1,0 +1,57 @@
+.info {
+  background-color: #94c970;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.info p,
+.info h1 {
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif, "arial";
+}
+
+.animal-image {
+  width: 160px;
+  margin: 5px;
+}
+
+.gotAdoptedCountText {
+  font-size: 24px;
+  text-align: center;
+}
+
+h3.animalShelterInfoText {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1103px) {
+  .gotAdoptedCountText {
+    font-size: 22px;
+  }
+
+  h3.animalShelterInfoText {
+    font-size: 18px;
+  }
+
+  .animal-image {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .gotAdoptedCountText {
+    font-size: 15px;
+  }
+
+  h3.animalShelterInfoText {
+    font-size: 15px;
+  }
+
+  .animal-image {
+    width: 50px;
+  }
+}
